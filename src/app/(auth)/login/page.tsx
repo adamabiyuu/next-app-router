@@ -1,7 +1,7 @@
-export default function AboutPage() {
+export default function LoginPage() {
     return (
         <main className="">
-            About Page
+            Login Page
         </main>
     )
 }
