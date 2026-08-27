@@ -2,13 +2,15 @@ import { NextRequest, NextResponse } from "next/server";
 const data = [
   {
     id: 1,
-    name: "Sepatu baru",
+    title: "Sepatu baru",
     price: 100000,
+    image: "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/19695ecc-e748-43a9-97f0-5cae899bce82/GIANNIS+FREAK+8+LE+EP.png",
   },
   {
     id: 2,
-    name: "Sepatu baru dong",
+    title: "Sepatu baru dong",
     price: 1000000,
+    image: "https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/19695ecc-e748-43a9-97f0-5cae899bce82/GIANNIS+FREAK+8+LE+EP.png",
   },
 ];
 export async function GET(request: NextRequest) {
